@@ -1,0 +1,71 @@
+
+@media (max-width:767px){
+#trend{
+    display: none;
+}
+.carousel-item .d-flex {
+    flex-wrap: wrap;
+}
+.carousel-item .row{
+    margin-right: 0px !important;
+    gap: 0px !important;
+}
+.category .category-box .box img{
+    height: 300px !important; 
+}
+.home-content h1
+{
+    font-size: 43px !important;
+}
+.home-content h1 span
+{
+    font-size: 23px !important;
+}
+.home-content p
+{
+    font-size: 14px !important;
+}
+
+.brands .img img:hover {
+    scale: 1.2 !important;
+}
+.products , .featured-info{
+    grid-template-columns: repeat(auto-fit, minmax(170px , auto)) !important;
+}
+.carousel-inner .d-flex {
+  flex-direction: column;
+}
+.carousel-inner .d-flex .row{
+    margin: auto;
+  }
+  .carousel-inner
+  {
+    flex-direction: column !important;
+  }
+  .product-all img{
+    height: 80% !important;
+}
+.alerts{
+    height: 75px !important;
+    align-items: end !important;
+}
+.Discover-list{
+    flex-wrap: wrap !important;
+}
+.alert-text{
+    font-size: 11px;
+}
+#btns{
+    flex-direction: column !important;
+    gap: 5px;
+}
+#btns li{
+    width: 25% !important;
+    margin: auto !important;
+}
+.Nav a span{
+    font-size: 10px !important;
+}
+}
+
+
